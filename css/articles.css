@@ -140,14 +140,9 @@ header li > a {
     width: 100% !important;
 }
 
-.knowmore {
+
+.two-column a {
     font-size: 13px;
     color: #2580ff;
-}
-
-
-.knowmore i{
-    font-size: 13px;
-    margin: 4px;
 }
 
