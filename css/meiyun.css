@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 32px 120px 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    background-color: #ffffff;
+}
+
+header .logo {
+    color: #030B24;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin: 18px 8px;
+}
+
+header ul li a {
+    padding: 6px 16px;
+    color: #030B24;
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+header ul li a:hover {
+    background: rgba(255, 255, 255, 0.24);
+    ;
+    color: #030B24;
+}
+
+header ul li a.active {
+    background: #030B24;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.one-column {
+    padding: 80px 120px 40px 180px;
+}
+
+.two-column {
+    padding: 80px 160px 0 0;
+}
+
+.one-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #030B24;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.two-column p {
+    font-size: 13px;
+    color: #8d8d8d;
+    margin-top: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 3px;
+}
+
+
+
+.subsection {
+    padding-top: 108px;
+    padding-bottom: 8px;
+    background: #f7f7f7;
+}
+
+.subsection ul {
+    display: flex;
+    justify-content: center;
+}
+
+.subsection ul li {
+    align-items: center;
+    margin: 18px 8px;
+}
+
+.subsection ul li a {
+    padding: 6px 36px;
+    color: #030B24;
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.subsection ul li a:hover {
+    color: #030B24;
+}
+
+.subsection ul li a.active {
+    color: #00a971;
+    font-weight: bold;
+}
+
+
+/* <!--Portfolio grid--> */
+
+.text-intro {
+    position: relative;
+    padding: 40px 120px 0px 120px;
+   text-align: center;
+}
+
+.text-intro h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #030B24;
+    font-weight: 900;
+    line-height: 44px;
+    padding-top: 44px;
+    border-top: 1px solid #ededed;
+}
+
+.text-intro p {
+    font-size: 14px;
+    color: #8d8d8d;
+    margin-top: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+
+
+.portfolio-grid {
+    width: 1170px;
+    position: relative;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+li.grid-item {
+    width: 360px;
+    position: relative;
+    float: left;
+    padding: 15px;
+    /* background-color: #F5F5F5; */
+}
+
+li.grid-itemx {
+    width: 360px;
+    position: relative;
+    float: left;
+    padding: 5px;
+    background-color: #F5F5F5;
+}
+
+li.grid-item img {
+    width: 360px;
+}
+
+li.grid-itemx img {
+    width: 360px;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    /* border-bottom: 1px solid #dedede; */
+}
+
+
+.grid-hover {
+    position: absolute;
+    width: 360px;
+    height: 100%;
+    top: 0;
+    background:#000000d0;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+
+.grid-hover:hover {
+    opacity: 0.9;
+}
+
+.grid-hover h1 {
+    font-size: 23px;
+    bottom: 48px;
+    left: 28px;
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.grid-hover p {
+    font-size: 13px;
+    bottom: 20px;
+    left: 28px;
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 50px;
+}

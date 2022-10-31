@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #030B24;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 32px 120px 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    margin: 18px 8px;
+}
+
+header ul li a {
+    padding: 6px 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+header ul li a:hover {
+    background: rgba(255, 255, 255, 0.24);
+    ;
+    color: #fff;
+}
+
+header ul li a.active {
+    background: #fff;
+    color: #030B24;
+    font-weight: bold;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section img#stars {
+    mix-blend-mode: overlay;
+    opacity: 0.8;
+    z-index: 11;
+}
+
+section img#planets {
+    z-index: 10;
+}
+
+section img#workbench {
+    z-index: 12;
+}
+
+
+#text {
+    position: absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 48px;
+    z-index: 9;
+    font-weight: bolder;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+    padding: 0% 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 13;
+    transform: translateY(272px);
+}
+
+.card {
+    background: #fff;
+    width: 328px;
+    margin: 14px;
+    padding: 24px 16px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ri-home-heart-fill {
+    font-size: 20px;
+    margin: 4px 8px 4px 0px;
+    background: linear-gradient(165.96deg, rgba(244, 88, 120, 0) 10.9%, #9377B2 87.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ri-chat-heart-fill {
+    font-size: 20px;
+    margin: 4px 8px 4px 0px;
+    background: linear-gradient(328.99deg, #FB924F 33.07%, rgba(255, 230, 190, 0) 85.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ri-chat-smile-3-fill {
+    font-size: 20px;
+    margin: 4px 8px 4px 0px;
+    background: linear-gradient(121.9deg, #CEED83 19.43%, rgba(60, 237, 173, 0.23) 84.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+h5 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #030B24;
+    font-weight: 600px;
+}
+
+.seemore {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 0px;
+    color: #959bac;
+    display: flex;
+    align-items: center;
+}
