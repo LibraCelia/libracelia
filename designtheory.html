@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>libracelia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/xccloud.css">
+    <link rel="icon" href="img/ico.ico">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <i class="ri-arrow-left-line"></i><a href="/designtools.html" class="back">设计工具</a>
+    </header>
+
+    <!--Content-->
+
+    <div class="content" id="ajax-content">
+
+        <div class="text-intro">
+
+            <div class="two-column">
+
+                <h2>可持续设计资产库的构建思路</h2>
+
+                <p>
+                    不论是自我沉淀还是为设计团队服务，设计组件都是一个绕不开的话题，大厂成熟的设计组件不少见，在搭建个人资产库的时候，依葫芦画瓢是一个不错的选择，但是往往只知其一不知其二；而公司内部的设计组件，往往会遇到落地难的问题，同事前期花了很大的功夫但是往往无法满足所有产品线，规范的程度在哪，是减轻了设计的负担还是加重了统一的工作任务？是否有一套思路，可以用于搭建可用的、可复用的设计资产库。
+                    <br /><br />
+                    我们从真实的设计流程出发，从结果开始，我们需要输出的是什么，是符合需求的设计稿，是一个一个功能模块，产品与产品之间的区别是什么，当我们向产品要内容的时候我们是在要什么？如果我们把业务的内容分离出来，我们首先可以得到：<br />
+                    - 功能模块：独立与业务之外的，通用性优先。你是否有在工作的过程中发现一些经常会遇到的设计模块，比如登录注册，比如人员管理，我们把这些由多个页面级的内容之间相互交互完成某一目的的事情梳理模块。<br />
+                    <br />
+                    现在我们继续往下拆，页面往往可以通过它的布局方式来分离，比如首页、比如列表页、详情页等等，我们这边定义：<br />
+                    - 页面布局：布局一开始就要考虑到自适应，布局从可分为页面级的布局、模态弹窗的布局、视窗的布局以及抽屉的布局，而影响布局的元素除了灵活变化的内容外，不变的可分为导航、选项卡、工具栏、搜索区域、操作区域等等<br />
+                    - 内容模板：我们拿到需求后，更具需求的内容我们可以对应到不同的形式，比如列表/表格、卡片、表单、图标、拓扑等等
+                    <br />
+                    到现在为止我们从上往下的结构体系已经完成，现在让我们从下往上看看，设计组件的原子论我们一定不陌生，我们能看到的所有设计页面都是由文字、颜色、按钮、图片等等组成的，这部分我们可以这样分：<br />
+                    - 设计分子：由设计原子组成，然后进一步组成页面布局与内容模板
+                    - 设计原子：即 LOGO、图标、头像、文字、颜色、间距与阴影，设计原子做成插件的引用形式，这里决定产品的风格与模式，比如深浅模式，比如颜色沉稳、间距紧凑、图标干净的商务产品，或者颜色活泼、间距开阔、图标圆润的社交产品
+                    <br /><br />
+                </p>
+
+                <img src="/img/可持续设计资产库.jpg" style="width: 90%;" alt="业务流程图">
+
+
+                <p>外部连接</p>
+                <br />
+                <div class="link">
+                    <a href="">可持续设计资产库的构建思路.figma</a>
+                    <br />
+
+                </div>
+
+                <br /><br />
+                </p>
+
+            </div>
+
+
+
+            <div class="one-column">
+
+                <h4>目录</h4>
+
+                <ul class="left-nav">
+                    <li><a class="ajax-link select" href="#">构建思路</a></li>
+                    <li><a class="ajax-link disable" href="#">功能模块</a></li>
+                    <li><a class="ajax-link disable" href="#">界面布局</a></li>
+                    <li><a class="ajax-link disable" href="#">内容模板</a></li>
+                    <li><a class="ajax-link disable" href="#">设计组件</a></li>
+                    <li><a class="ajax-link disable" href="#">设计原子</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- <div class="clear"></div> -->
+</body>
+
+</html>

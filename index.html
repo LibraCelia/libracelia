@@ -8,115 +8,59 @@
     <title>libracelia</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="icon" href="img/ico.ico">
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
 </head>
 
 <body>
-
-    <!--Header-->
-    <header id="fullscreen" style="display: block ;">
-
-        <div class="logo" id="full"><a class="ajax-link" href="index.html">LIBRACELIA</a></div>
-
-        <div class="menu-index" id="button">
-            <i class="ri-menu-line"></i>
-        </div>
-
-    </header>
-
-    <div class="clear"></div>
-
-    <!--Content-->
-
-    <div class="content" id="ajax-content">
-
-        <div class="text-intro" id="site-type">
-            <h1>Hi 你好！我是李雪燃</h1>
-            <p>UI/UX Designer | Product Designer</p>
-            <p>我毕业于新加坡义安理工产品设计与创新专业，15 年就职于北京奇鱼时代，负责 ToB 软件「微办公」审批和后台模块的设计；18
-                年加入广东美云智数，致力于成就企业数字化转型，客户方有东风汽车、宝时得、瑞贝卡等；20 年作为产品设计师加入青云科技，负责产品 AIoT 以及行业化的物联网解决方案，客户方有江苏交控与苏州华兴源创。</p>
-        </div>
-
-        <!--Portfolio grid-->
-
-        <ul class="portfolio-grid" id="portfolio-sidebar">
-
-
-            <li class="grid-item disable">
-                <a class="ajax-link" href="home.html">
-                    <i class="ri-pencil-ruler-2-fill disable"></i>
-                    <div class="text-content disable">
-                        <h1>about me</h1>
-                        <p>施工中</p>
-                    </div>
-                </a>
-            </li>
-
-            <li class="grid-item disable">
-                <a class="ajax-link" href="home.html">
-                    <i class="ri-pencil-ruler-2-fill disable"></i>
-                    <div class="text-content disable">
-                        <h1>inside</h1>
-                        <p>施工中</p>
-                    </div>
-                </a>
-            </li>
-
-            <li class="grid-item">
-                <a class="ajax-link" href="xc.html">
-                    <i class="ri-cloud-fill"></i>
-                    <div class="text-content">
-                        <h1>信创云</h1>
-                        <p>行业知识 ｜ 竞品了解</p>
-                    </div>
-                </a>
-            </li>
-
-            <li class="grid-item">
-                <a class="ajax-link" href="products.html">
-                    <i class="ri-stack-fill"></i>
-                    <div class="text-content">
-                        <h1>my Product</h1>
-                        <p>微办公 ｜ AIoT</p>
-                    </div>
-                </a>
-            </li>
-
-            <li class="grid-item">
-                <a class="ajax-link" href="projects.html">
-                    <i class="ri-cloud-windy-fill"></i>
-                    <div class="text-content">
-                        <h1>my Project</h1>
-                        <p>东风 ｜ 华兴</p>
-                    </div>
-                </a>
-            </li>
-
-            <li class="grid-item">
-                <a class="ajax-link" href="articles.html">
-                    <i class="ri-file-4-fill"></i>
-                    <div class="text-content">
-                        <h1>my Article</h1>
-                        <p>翻译 ｜ 笔记 ｜ 产出</p>
-                    </div>
-                </a>
-            </li>
-
+    <header>
+        <a href="/index.html" class="logo">libracelia</a>
+        <ul>
+            <li><a href="/index.html" class="active">home</a></li>
+            <li><a href="/theory.html">theory</a></li>
+            <li><a href="/calendar.html">calendar</a></li>
+            <li><a href="/portfolio.html">portfolio</a></li>
         </ul>
-
-
-    </div>
-
-    <!--Home Sidebar-->
-
-    <div id="ajax-sidebar">
-        <div class="home-sidebar" style="background-image:url('img/home-sidebar.jpg')" id="hero"></div>
-    </div>
-
-
+    </header>
+    <section>
+        <img src="./img/window.png" id="window">
+        <img src="./img/workbench.png" id="workbench">
+        <h2 id="text">Hi, Welcome to my World!</h2>
+        <img src="./img/planets.png" id="planets">
+        <img src="./img/stars.png" id="stars">
+        <div class="cards">
+            <a class="card" href="/theory.html">
+                <i class="ri-home-heart-fill"></i>
+                <div class="card-item">
+                    <h5> theory・myThought</h5>
+                    <div class="seemore">
+                        see more
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="/calendar.html">
+                <i class="ri-chat-heart-fill"></i>
+                <div class="card-item">
+                    <h5> calendar・myAction</h5>
+                    <div class="seemore">
+                        see more
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="/portfolio.html">
+                <i class="ri-chat-smile-3-fill"></i>
+                <div class="card-item">
+                    <h5> portfolio・myWorks</h5>
+                    <div class="seemore">
+                        see more
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
 </body>
 
 </html>
